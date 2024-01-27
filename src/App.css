@@ -1,0 +1,215 @@
+body {
+   background-color: rgb(238, 238, 238);
+   font-family: 'Verdana';
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+.container {
+   margin: 50px;
+   width: 500px;
+}
+
+.header, .message {
+   background-color: white;
+   border: 1px solid rgb(224, 224, 224);
+   border-radius: 5px;
+   margin-bottom: 10px;
+   padding: 10px 20px 10px 20px;
+}
+
+.header, .postHeader, .additionalInfo, .footerBtns, .commentary, .icons, .publish, .formInput, .options, .operations {
+   display: flex;
+   align-items: center;
+}
+
+.header, .publish, .options {
+   justify-content: end;
+}
+
+.addHeader {
+   justify-content: space-between;
+   padding: 10px 0px 10px 0px;
+   border: 0;
+   margin-bottom: 0;
+}
+
+.addPage, .redForm {
+   display: flex;
+   flex-direction: column;
+}
+
+.addBtn {
+   align-self: flex-end;
+   margin-left: 10px;
+   padding: 5px 10px 5px 10px;
+   background-color: rgb(73, 73, 184);
+   border: 0;
+   border-radius: 5px;
+   color: white;
+   text-decoration: none;
+   font-size: 12px;
+}
+
+.msgWrapper {
+   margin-bottom: 20px;
+   display: flex;
+}
+
+.avatar {
+   width: 40px;
+   height: 40px;
+   margin-right: 10px;
+   border-radius: 50%;
+}
+
+.userName, .userStatus {
+   font-weight: bold;
+}
+
+.userName {
+   font-size: 14px;
+   margin: 0 0 5px 0;
+   color: rgb(73, 73, 184);
+}
+
+.userStatus, .created {
+   font-size: 12px;
+   margin: 0;
+   color: rgb(77, 77, 77);
+}
+
+.created {
+   margin: 0 0 0 10px;
+}
+
+.content {
+   margin: 25px 0 25px 0;
+   font-size: 18px;
+}
+
+.footerBtns {
+   border-top: 1px solid rgb(224, 224, 224);
+}
+
+.btn {
+   width: -webkit-fill-available;
+   padding: 10px;
+   background-color: white;
+   border: 0;
+   font-weight: bold;
+   color: rgb(37, 27, 27);
+}
+
+.msgBtn {
+   width: auto;
+   padding: 0;
+   color: rgb(73, 73, 184);
+}
+
+.btn::before, .icon::before {
+   font-family: 'Font Awesome 6 Free';
+   color: rgb(77, 77, 77);
+   font-size: 14px;
+   font-weight: 400;
+   margin-right: 5px;
+}
+
+.likeBtn::before {
+   content: '\f164'
+}
+
+.commentBtn::before {
+   content: '\f075'
+}
+
+.publ::before {
+   content: '\f11c';
+}
+
+.stream::before {
+   content: '\f144'
+}
+
+.more::before {
+   font-weight: bold;
+   content: '\f141'
+}
+
+.exit::before {
+   font-weight: bold;
+   content: '\f00d'
+}
+
+.emotes::before {
+   content: '\f118'
+}
+
+.photos::before, .media::before {
+   content: '\f03e'
+}
+
+.gifs::before {
+   content: '\f044'
+}
+
+.stickers::before {
+   content: '\f249'
+}
+
+.places::before {
+   content: '\f3c5';
+   font-weight: bold;
+}
+
+.friends::before {
+   content: '\f500';
+   font-weight: bold;
+}
+
+.commentary, .publish, .options, .operations {
+   position: relative;
+   border-top: 1px solid rgb(224, 224, 224);
+   padding-top: 10px;
+   background-color: white;
+}
+
+.formInput {
+   margin: 10px 0 10px 0;
+}
+
+.inputField {
+   width: calc(100% - 50px);
+   height: 20px;
+   padding: 10px 20px 10px 20px;
+   border: 1px solid rgb(224, 224, 224);
+   border-radius: 20px;
+   outline: none;
+}
+
+.icons {
+   position: absolute;
+   right: 20px;
+}
+
+.text {
+   font-size: 14px;
+   font-weight: bold;
+   margin: 0;
+}
+
+.operations {
+   margin: 10px 0 10px 0;
+   flex-wrap: wrap;
+   gap: 5px;
+}
+
+.operBtn {
+   width: 49.3%;
+   text-align: start;
+   border-radius: 20px;
+   background-color: rgb(240, 240, 240);
+}
