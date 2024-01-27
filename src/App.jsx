@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="container">
       <Routes>
-        <Route path="/crud" exact element={<Home/>} />
+        <Route path="/router" exact element={<Home/>} />
         <Route path="/posts/new" element={<Add/>} />
         <Route path="/posts/:id" element={<Post/>} />
       </Routes>

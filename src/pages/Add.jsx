@@ -20,7 +20,7 @@ export function Add() {
     } catch (error) {
       console.log(error);
     }
-    navigate('/crud');
+    navigate('/router');
   };
 
   const inputChange = (e) => {
@@ -35,7 +35,7 @@ export function Add() {
         <button className="btn msgBtn media">Фото/Видео</button>
         <button className="btn msgBtn stream">Прямой эфир</button>
         <button className="btn msgBtn more">Еще</button>
-        <Link to="/crud" className="addBtn btn msgBtn exit"></Link>
+        <Link to="/router" className="addBtn btn msgBtn exit"></Link>
       </nav>
       <form className="addPage" onSubmit={addMsg}>
         <div className="formInput">

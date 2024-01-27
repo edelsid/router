@@ -12,7 +12,7 @@ export function RedactMenu({ onRed }) {
         if (response.status !== 204) {
           console.log('server error');
         } else {
-          navigate('/crud');
+          navigate('/router');
       }});
     } catch (error) {
       console.log(error);
