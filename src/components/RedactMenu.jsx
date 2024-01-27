@@ -6,7 +6,7 @@ export function RedactMenu({ onRed }) {
 
   const delMsg = () => {
     try {
-      fetch(`https://router-crud-5y4f.onrender.com/${id}`, {
+      fetch(`https://router-crud-5y4f.onrender.com/posts/${id}`, {
         method: 'DELETE',
       }).then(response => {
         if (response.status !== 204) {
